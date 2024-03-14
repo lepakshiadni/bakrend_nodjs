@@ -6,7 +6,7 @@ FROM node:alpine3.18
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY package*.json ./
+COPY package*.json /app
 
 # Install any needed packages specified in package.json
 RUN npm install
