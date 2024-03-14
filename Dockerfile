@@ -1,5 +1,6 @@
 # Use the official Node.js 14 image as the base image
-FROM node:nightly
+FROM node:alpine3.18
+
 
 # Set the working directory to /app
 WORKDIR /app
