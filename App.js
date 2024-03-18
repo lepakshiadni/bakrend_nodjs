@@ -26,7 +26,7 @@ app.use(express.urlencoded({
     limit:'90mb',
     parameterLimit: 10000,
     extended:true
-}))
+})) 
 app.use(cookieParser())
 app.use(cors())
 
