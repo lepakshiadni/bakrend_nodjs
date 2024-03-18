@@ -80,7 +80,7 @@ app.get("/localip",(req,resp)=>{
     }
 })
 app.get("/server", (req, res)=>{
-    res.send("<h1>server is working </h1>")
+    res.send("<h1>server is working</h1>")
 })
 const PORT = process.env.PORT || 8080
 const server = app.listen(PORT, () => {
